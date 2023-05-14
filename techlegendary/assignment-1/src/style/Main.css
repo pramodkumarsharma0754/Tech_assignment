@@ -1,0 +1,18 @@
+.card{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(auto,1fr);
+    gap: 30PX;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;              
+}
+
+.singlecard{
+    border: 1px solid green;
+}
+
+.maincard{
+    margin: auto;
+    
+}
