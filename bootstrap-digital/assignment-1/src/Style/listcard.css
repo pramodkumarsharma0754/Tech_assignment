@@ -1,0 +1,86 @@
+@import "Navbar.css";
+*{
+    
+    padding: 0%;
+    margin: 0%;
+    font-size: 1rem;
+}
+.navbar{
+    text-align: start;
+    background-color: silver;
+}
+.navbar h1{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.addbook1{
+    width: 40%;
+   
+    margin-left: 1rem;
+}
+.addbook1 div {
+    
+    margin: auto;
+    margin-top: .3rem;
+}
+.addbook1 button{
+    margin-top: 1rem;
+}
+.addbook1 button{
+    padding: .2rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: green;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,15rem);
+    grid-template-rows: repeat(auto,15rem);
+    gap: .6rem;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2rem 2rem;
+}
+.cardeditdelete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.3rem;
+    margin-bottom: 1.3rem;
+}
+.card button{
+    padding: .2rem;
+    border-radius: .2rem;
+    border: none;
+}
+@media all and (min-width:320px) and  (max-width:767px){
+    .card{
+        
+        display: grid;
+        grid-template-columns: repeat(1,15rem);
+        grid-template-rows: repeat(auto,12rem);
+        gap: .6rem;
+        margin-left: 2rem;
+       
+    }
+    .navbar h1{
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+}
+@media all and (min-width:768px) and  (max-width:1024px){
+    .card{
+        
+        display: grid;
+        grid-template-columns: repeat(2,15rem);
+        grid-template-rows: repeat(auto,12rem);
+        gap: .6rem;
+        margin-left: 2rem;
+        
+    }
+    .navbar h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+}
